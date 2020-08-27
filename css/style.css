@@ -244,6 +244,9 @@ video{
 	text-align: center;
     margin: 40px 10px;
 }
+.box:hover{
+	box-shadow: 8px 6px 35px #aaaaaa;
+}
 .box_shadow{
 	width: 31%;
 	float: left;
