@@ -1,0 +1,299 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+
+header{
+	margin: 0;
+}
+
+.wrepper {
+	width: 68%;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+.logo {
+	width: 18%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+
+.menu {
+	width: 77%;
+	margin-top: -5px;
+	float: right;
+}
+.menu ul{
+		float: right;
+	}
+.menu ul li{
+		list-style: none;
+		float: left;
+	}
+.menu ul li a{
+	font-size: 16px;
+	font-weight: 700;
+	font-family: sans-serif;
+	color: black;
+	padding: 0 10px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: red;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../image/banner.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top;
+	min-height: 450px;
+}
+.p-wrepper{
+	width: 50%;
+	
+}
+.p-wrepper h1{
+	font-family: sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	color: white;
+	margin: 62px 0;
+}
+.p-wrepper p{
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: white;
+
+}
+.p-wrepper button{
+		font-family: sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		width: 300px;
+		height: 35px;
+		margin: 20px 0;
+		background-color: #BE2440;
+		color: white;
+		border:none;
+		text-transform: uppercase;
+}
+
+/*banner end*/
+
+/*how it work start*/
+.first_part{
+		width: 70%;
+		
+		margin: 0 auto;
+		text-align: center;
+		padding-top: 40px;
+		padding-bottom: 45px;
+}
+.first_part h1{
+			font-size: 30px;
+			font-weight: 700;
+			font-family: sans-serif;
+			color: #1F1F1F;
+}
+.first_part h1 p{
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: black;
+	
+}
+
+.second_part{
+	    
+		overflow: hidden;
+		margin: 2px 30px 100px 37px;
+		text-align: center;
+
+}
+.logo1{
+	width: 24%;
+
+	text-align: center;
+	float: left;
+	padding: 5px 37px;
+}
+.logo1 img{
+	
+}
+.logo1 img p{
+	text-align: center;
+}
+
+.logo2{
+	width: 24%;
+	
+	text-align: center;
+	float: left;
+	padding: 5px 36px;
+}
+.logo2 img{
+	
+}
+.logo2 img p{
+	text-align: center;
+}
+
+.logo3{
+	width: 24%;
+	
+	text-align: center;
+	float: left;
+	padding: 5px 36px;
+}
+.logo3 img{
+	
+}
+.logo3 img p{
+	text-align: center;
+}
+
+/*how it work end*/
+/*section video start*/
+.contant_video{
+	margin-bottom: 60px;
+}
+.lern_how{
+	width: 46%;
+	float: left;
+
+}
+.lern_how h1{
+	font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: -2px;
+    margin-top: 60px;
+}
+.lern_how p{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: black;
+	margin-top:14px;
+	margin-bottom: 17px;
+}
+.lern_how button{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: white;
+	background-color: #BE2440;
+	border: none;
+	padding: 9px 20px;
+	text-transform: uppercase;
+	margin: 14px 0;
+
+}
+video{
+	float: right;
+	margin-left: 10px;
+}
+
+
+
+/*section video end*/
+/*Features start*/
+.features{}
+.features_size{
+	width: 40%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.features h1{
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	text-align: center;
+}
+.features p{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+}
+
+/*Features end*/
+/*6box start*/
+.box{
+	width: 31%;
+	float: left;
+	text-align: center;
+    margin: 40px 10px;
+}
+.box_shadow{
+	width: 31%;
+	float: left;
+	text-align: center;
+    margin: 40px 10px;
+    background-color: white;
+    box-shadow: 8px 6px 35px #aaaaaa;
+}
+
+
+/*6box end*/
+.see_all{
+	width: 15%;
+	background-color: white;
+    box-shadow: 7px 3px 5px #aaaaaa;
+    margin: 0 auto;
+
+	}
+
+.see_all h4{
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	color: red;
+	padding: 10px;
+	
+}
+
+.copy{
+	background-color: #535D69;
+	margin: 0;
+
+}
+.copy h5{
+	font-family: serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: white;
+	padding: 24px;
+	text-align: center;
+	
+
+}
+
+
+
+
+
+
+
+
+
